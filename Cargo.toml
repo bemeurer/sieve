@@ -11,14 +11,13 @@ license = "BSD-3-Clause"
 build = "build.rs"
 
 [features]
-
 optimize-cache = ["cache-size"]
 
 [build-dependencies]
 cache-size = { version = "0.3.2", optional = true }
 
 [dependencies]
-
+num = "0.2"
 
 [profile.dev]
 opt-level = 1
