@@ -1,3 +1,5 @@
+include!(concat!(env!("OUT_DIR"), "/cache_size.rs"));
+
 #[cfg(test)]
 mod tests {
     #[test]
